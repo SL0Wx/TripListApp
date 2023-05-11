@@ -1,0 +1,86 @@
+.newTripForm, .editTripForm, .peopleListBox, .itemListForm, .itemListBox {
+    width: 25%;
+    margin: 0 auto;
+    position: absolute;
+    top: 25%;
+    padding: 2rem;
+    border-radius: 10px;
+    background-color: #40444b;
+    color: white;
+    border: 3px solid black;
+}
+
+.newTripForm {
+    left: 37.5%;
+}
+
+.peopleListBox, .itemListForm {
+    left: 50%;
+}
+
+.closeBtn {
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 10;
+}
+
+.tripList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.tripBox {
+    display: inline-flex;
+    width: 33%;
+    height: 150px;
+    background-color: #2f3136;
+    border-radius: 5px;
+    margin: 2px auto;
+}
+
+.tripBoxContent {
+    width: 100%;
+}
+
+.tripAcordion {
+    width: 50%;
+}
+
+.peopleListBtn {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+}
+
+.manageButtons {
+    display: inline-flex;
+    justify-content: flex-end;
+    width: 50%;
+}
+
+.itemsBtn {
+    display: inline-flex;
+    width: 50%;
+}
+
+.editBtn, .deleteBtn, .addItemBtn {
+    margin: 10px;
+}
+
+.peopleListItem, .itemListItem {
+    display: flex;
+    justify-content: space-between;
+    line-height: 40px;
+}
+
+.saveBtn, .saveItems {
+    margin-top: 20px;
+}
+
+.errorValidation {
+    display: flex;
+    justify-content: center;
+    color: rgb(255, 55, 55);
+}
