@@ -16,7 +16,7 @@ function List({ tripList, setTripList, edit, setEdit, id, setId, itemsToggle, se
               <Accordion className="tripAcordion">
                 {tripList.map((trip, i) => (
                   <>
-                    <Accordion.Item eventKey={i} className="acordionItem" style={ addNew || edit || itemsToggle ? { opacity: 0.4, pointerEvents: "none" } :  { opacity: 1, pointerEvents: "all" } }>
+                    <Accordion.Item eventKey={i} className="acordionItem" style={ addNew || edit || itemsToggle ? { opacity: 0.5, pointerEvents: "none" } :  { opacity: 1, pointerEvents: "all" } }>
                       <Accordion.Header>{trip.place}</Accordion.Header>
                       <Accordion.Body>
                         <p><b>Data wyjazdu: {new Date(trip.startDate).toLocaleDateString()}</b></p>
